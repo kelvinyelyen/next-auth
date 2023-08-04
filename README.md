@@ -32,42 +32,37 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 
    ```bash
    git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
-   cd your-authentication-template
+   cd nextjs-postgres-auth
 
-2. Set up environment variables in `.env.local.`
+2. Install dependencies:
 
+   ```bash
+   npm install
+
+3. Set up environment variables in `.env.local.`
  
+4. Start the development server:
+
+   ```bash
+   npm run dev
+
 ### Folder Structure
 
  ```bash
-   ├── .vercel/
-├── app/
-│ ├── api/
-│ │ ├── auth/
-│ │ │ ├── [...nextauth]/
-│ │ │ │ └── route.ts
-│ │ │ └── signin.ts
-│ │ └── ...
-│ ├── components/
-│ │ ├── shared/
-│ │ │ ├── icons.tsx
-│ │ │ └── modal.tsx
-│ │ └── ...
-│ ├── lib/
-│ │ ├── prisma.ts
-│ │ └── constants.ts
-│ ├── pages/
-│ │ ├── api/
-│ │ │ └── auth/
-│ │ │ ├── [...nextauth].ts
-│ │ │ └── signin.ts
-│ │ ├── ...
-│ │ ├── _app.tsx
-│ │ ├── index.tsx
-│ │ └── ...
-│ └── ...
-├── public/
-├── tailwind.config.js
-├── .env.local
-├── LICENSE
-└── README.md
+    nextjs-postgres-auth/
+    ├── app/
+    │   ├── api/
+    │   │   ├── auth/
+    │   │   │   └── [...nextauth]/
+    │   │   │       └── route.ts
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── components/
+    │   ├── ... (other components)
+    ├── lib/
+    │   ├── prisma.ts
+    │   └── ... (other utility files)
+    ├── prisma/
+    │   └── schema.prisma
+    ├── .env
+    └── ... (other project files and folders)
