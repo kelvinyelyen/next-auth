@@ -48,7 +48,7 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 
 ### Folder Structure
 
- ```bash
+    ```bash
     nextjs-postgres-auth/
     ├── app/
     │   ├── api/
