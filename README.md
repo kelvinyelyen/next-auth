@@ -100,4 +100,4 @@ Please note that this template is still under development, and I am actively loo
 ### Get Involved
 - Feel free to clone, use, and customize this template for your projects.
 - If you encounter any issues, have ideas for improvements, or want to contribute, please open an issue or pull request.
-- Your feedback and contributions will greatly help us enhance and evolve this template.
+- Your feedback and contributions will greatly help me enhance and evolve this template.

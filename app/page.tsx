@@ -49,7 +49,7 @@ export default function Home() {
       </div>
       
       <div className="max-w-screen-lg mx-auto">
-        <h1 className="animate-fade-up bg-gradient-to-br from-black to-gray-100 bg-clip-text p-5 text-center font-display text-5xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-5xl md:leading-[7rem]"
+        <h1 className="animate-fade-up bg-gradient-to-br from-black to-gray-100 bg-clip-text p-5 text-center font-display text-3xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-5xl md:leading-[7rem]"
             style={animationStyles}>
           <Balancer>Features.</Balancer>
         </h1>
