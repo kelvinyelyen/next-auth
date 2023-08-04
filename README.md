@@ -66,3 +66,18 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
     │   └── schema.prisma
     ├── .env
     └── ... (other project files and folders)
+
+
+`routes.ts` in `app/api/auth/[...nextauth]/`
+
+- Contains the API routes and configurations for authentication, specifically using NextAuth.js. It defines how the authentication process works and interacts with various authentication providers.
+
+
+`prisma.ts` in `lib/`
+
+- Utility module that exports a configured instance of the Prisma Client. Prisma Client is used to interact with your PostgreSQL database and perform CRUD operations.
+
+
+`schema.prisma` in `prisma/`
+- This file defines your database schema using Prisma's DSL (Domain-Specific Language). It specifies the structure of your database tables, relationships between them, and additional settings.
+
