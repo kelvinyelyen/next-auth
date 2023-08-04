@@ -1,6 +1,6 @@
 # Authentication Boilerplate for Nextjs
 
-![Project Logo](/banner.png)
+![Project Logo](/public/banner.png)
 
 An authentication template built using Next.js, Vercel Postgres, Prisma, and NextAuth.js.  A great foundation for implementing authentication in various web applications.
 
