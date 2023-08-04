@@ -24,7 +24,7 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (v18 or higher)
 
 ### Installation
 
@@ -46,26 +46,26 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
    ```bash
    npm run dev
 
-### Folder Structure
+    ### Folder Structure
 
-    ```bash
-    nextjs-postgres-auth/
-    ├── app/
-    │   ├── api/
-    │   │   ├── auth/
-    │   │   │   └── [...nextauth]/
-    │   │   │       └── route.ts
-    │   ├── layout.tsx
-    │   └── page.tsx
-    ├── components/
-    │   ├── ... (other components)
-    ├── lib/
-    │   ├── prisma.ts
-    │   └── ... (other utility files)
-    ├── prisma/
-    │   └── schema.prisma
-    ├── .env
-    └── ... (other project files and folders)
+        ```bash
+        nextjs-postgres-auth/
+        ├── app/
+        │   ├── api/
+        │   │   ├── auth/
+        │   │   │   └── [...nextauth]/
+        │   │   │       └── route.ts
+        │   ├── layout.tsx
+        │   └── page.tsx
+        ├── components/
+        │   ├── ... (other components)
+        ├── lib/
+        │   ├── prisma.ts
+        │   └── ... (other utility files)
+        ├── prisma/
+        │   └── schema.prisma
+        ├── .env
+        └── ... (other project files and folders)
 
 
 `routes.ts` in `app/api/auth/[...nextauth]/`
@@ -81,3 +81,23 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 `schema.prisma` in `prisma/`
 - This file defines your database schema using Prisma's DSL (Domain-Specific Language). It specifies the structure of your database tables, relationships between them, and additional settings.
 
+
+## Contributing
+
+This project was aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects.
+
+Please note that this template is still under development, and I am actively looking for ways to further streamline for easy use and customization. Your contributions, feedback, and suggestions are highly appreciated.
+
+### How to Contribute
+
+1. **Clone the Repository:** Fork this repository, clone it to your local machine, and create a new branch.
+
+   ```bash
+   git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
+   cd nextjs-postgres-auth
+   git checkout -b feature/your-feature-name
+
+### Get Involved
+- Feel free to clone, use, and customize this template for your projects.
+- If you encounter any issues, have ideas for improvements, or want to contribute, please open an issue or pull request.
+- Your feedback and contributions will greatly help us enhance and evolve this template.
