@@ -6,16 +6,11 @@ An authentication template built using Next.js, Vercel Postgres, Prisma, and Nex
 
 Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://github.com/steven-tey/precedent)
 
-## Features
+## Tech Stack
 
 - [Next.js](https://nextjs.org/) & [Vercel](https://vercel.com/) Deployment
-- [Prisma](https://www.prisma.io/) PostgreSQL Management
-- Secure Environment Variables
+- [Prisma](https://www.prisma.io/) Vercel PostgreSQL Management
 - [NextAuth.js](https://next-auth.js.org/) Integration
-- Multi-Provider Support
-- Custom API Routes
-- Protected Routes
-- Scalable Architecture
 - [Tailwind CSS](https://tailwindcss.com/) for UI
 - [Framer Motion](https://www.framer.com/motion/) for Animations
 - [Lucide Icons](https://lucide.dev/) for Icons
@@ -46,9 +41,8 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
    ```bash
    npm run dev
 
-    ### Folder Structure
-
-        ```bash
+### Folder Structure
+   ```bash
         nextjs-postgres-auth/
         ├── app/
         │   ├── api/
@@ -69,9 +63,7 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 
 ## Contributing
 
-This project is aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects.
-
-The template is under development, and contributions, feedback, and suggestions are highly appreciated.
+This project is aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects. This template is under development, and contributions, feedback, and suggestions are highly appreciated.
 
 ### How to Contribute
 
