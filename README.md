@@ -42,40 +42,10 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
    ```bash
    npm run dev
 
-### Folder Structure
-    ```bash
-        nextjs-postgres-auth/
-        ├── app/
-        │   ├── api/
-        │   │   ├── auth/
-        │   │   │   └── [...nextauth]/
-        │   │   │       └── route.ts
-        │   ├── layout.tsx
-        │   └── page.tsx
-        ├── components/
-        │   ├── ... (other components)
-        ├── lib/
-        │   ├── prisma.ts
-        │   └── ... (other utility files)
-        ├── prisma/
-        │   └── schema.prisma
-        ├── .env
-        └── ... (other project files and folders)
-
 ## Contributing
 
 This project is aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects. This template is under development, and contributions, feedback, and suggestions are highly appreciated.
 
-### How to Contribute
-
-1. **Clone the Repository:** Fork this repository, clone it to your local machine, and create a new branch.
-
-   ```bash
-   git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
-   cd nextjs-postgres-auth
-   git checkout -b feature/your-feature-name
-
-### Get Involved
 - Feel free to clone, use, and customize this template for your projects.
 - If you encounter any issues, have ideas for improvements, or want to contribute, please open an issue or pull request.
 - Your feedback and contributions will greatly help me enhance and evolve this template.
