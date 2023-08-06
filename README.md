@@ -8,12 +8,13 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
 
 ## Tech Stack
 
-- [Next.js](https://nextjs.org/) & [Vercel](https://vercel.com/) Deployment
-- [Prisma](https://www.prisma.io/) Vercel PostgreSQL Management
-- [NextAuth.js](https://next-auth.js.org/) Integration
-- [Tailwind CSS](https://tailwindcss.com/) for UI
-- [Framer Motion](https://www.framer.com/motion/) for Animations
-- [Lucide Icons](https://lucide.dev/) for Icons
+- [Next.js](https://nextjs.org/)
+- [Vercel](https://vercel.com/) Deployment
+- Vercel PostgresSQL
+- [Prisma](https://www.prisma.io/) PostgreSQL Management
+- [NextAuth.js](https://next-auth.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/) 
+- [Framer Motion](https://www.framer.com/motion/)
 
 ## Getting Started
 
@@ -42,7 +43,7 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
    npm run dev
 
 ### Folder Structure
-   ```bash
+    ```bash
         nextjs-postgres-auth/
         ├── app/
         │   ├── api/
