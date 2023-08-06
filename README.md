@@ -67,26 +67,11 @@ Inspired by [Steven Tey's](https://github.com/steven-tey) [Precedent](https://gi
         ├── .env
         └── ... (other project files and folders)
 
-
-`routes.ts` in `app/api/auth/[...nextauth]/`
-
-- Contains the API routes and configurations for authentication, specifically using NextAuth.js. It defines how the authentication process works and interacts with various authentication providers.
-
-
-`prisma.ts` in `lib/`
-
-- Utility module that exports a configured instance of the Prisma Client. Prisma Client is used to interact with your PostgreSQL database and perform CRUD operations.
-
-
-`schema.prisma` in `prisma/`
-- This file defines your database schema using Prisma's DSL (Domain-Specific Language). It specifies the structure of your database tables, relationships between them, and additional settings.
-
-
 ## Contributing
 
-This project was aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects.
+This project is aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects.
 
-Please note that this template is still under development, and I am actively looking for ways to further streamline for easy use and customization. Your contributions, feedback, and suggestions are highly appreciated.
+The template is under development, and contributions, feedback, and suggestions are highly appreciated.
 
 ### How to Contribute
 
