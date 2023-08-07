@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "Monument Extended Regular";
+    src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot");
+    src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.svg#Monument Extended Regular")format("svg");
+}
+
+.logo {
+    font-family: "Monument Extended Regular";
+}
