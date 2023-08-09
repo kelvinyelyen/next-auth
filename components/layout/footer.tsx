@@ -11,14 +11,6 @@ export default function Footer() {
         >
           Kelvin Yelyen
         </a>
-        <a
-          className="text-sm text-gray-100  transition-colors"
-          href="https://github.com/steven-tey/precedent"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          , Inspired by Precedent
-        </a>
       </p>
     </div>
   );
