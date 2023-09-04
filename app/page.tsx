@@ -8,27 +8,26 @@ export default function Home() {
     animationFillMode: 'forwards',
   };
 
-  const linkCommonStyles = 'flex max-w-fit items-center justify-center space-x-2 rounded-full px-5 py-2 text-sm';
-  const deployLinkStyles = `${linkCommonStyles} border border-white bg-white text-black transition-colors hover:border-black`;
-  const githubLinkStyles = `${linkCommonStyles} border border-gray-300 bg-white text-gray-600 shadow-md transition-colors hover:border-gray-800`;
+  const deployLinkStyles = `group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black`;
+  const githubLinkStyles = `flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 transition-colors hover:border-gray-800`;
 
   return (
     <div className="z-10 w-full max-w-screen-xl px-5 xl:px-0">
       <h1
-        className={`animate-fade-up bg-gradient-to-br from-black to-gray-100 bg-clip-text p-5 text-center font-display text-5xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-8xl md:leading-[5rem]`}
+        className={`animate-fade-up text-black text-center font-display text-5xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-8xl md:leading-[5rem] font-inter`}
         style={animationStyles}
       >
-        <Balancer>Authentication for your Next project.</Balancer>
+        <Balancer>NextAuth</Balancer>
       </h1>
       <p
-        className={`mt-6 animate-fade-up text-center text-gray-400 opacity-0 md:text-md`}
+        className={`mt-5 animate-fade-up text-center text-gray-400 opacity-0 md:text-md`}
         style={{ ...animationStyles, animationDelay: '0.25s' }}
       >
         <Balancer>
-          Template built with Next.js, Vercel Postgres,<br /> Prisma, and NextAuth.js
+          NextAuth with Vercel Postgres & Prisma
         </Balancer>
       </p>
-      <div className="mx-auto mt-6 flex animate-fade-up items-center justify-center space-x-5 opacity-0"
+      <div className="mx-auto mt-5 flex animate-fade-up items-center justify-center space-x-5 opacity-0"
            style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
         <a className={deployLinkStyles}
            href={DEPLOY_URL} target="_blank" rel="noopener noreferrer">
@@ -38,7 +37,7 @@ export default function Home() {
           <p>Deploy to Vercel</p>
         </a>
         <a className={githubLinkStyles}
-           href="https://github.com/kelvinyelyen/nextjs-postgres-auth" target="_blank" rel="noopener noreferrer">
+           href="https://github.com/kelvinyelyen/next-auth" target="_blank" rel="noopener noreferrer">
           <Github />
           <p>
             <span className="hidden sm:inline-block">Star on</span> GitHub

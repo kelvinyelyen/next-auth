@@ -1,15 +1,14 @@
-# Authentication Boilerplate for Nextjs
+# NextAuth Authentication 
 
-An authentication template built using Next.js, Vercel Postgres, Prisma, and NextAuth.js.  A great foundation for implementing authentication in various web applications.
+Foundation for implementing authentication in various web applications.
 
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/)
-- [Vercel](https://vercel.com/) Deployment
-- Vercel PostgresSQL
-- [Prisma](https://www.prisma.io/) PostgreSQL Management
+- [Vercel](https://vercel.com/) PostgresSQL
+- [Prisma](https://www.prisma.io/) 
 - [NextAuth.js](https://next-auth.js.org/)
-- [Tailwind CSS](https://tailwindcss.com/) 
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
 ## Getting Started
@@ -24,20 +23,21 @@ An authentication template built using Next.js, Vercel Postgres, Prisma, and Nex
 
    ```bash
    git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
-   cd nextjs-postgres-auth
+   cd next-auth
+   ```
 
 2. Install dependencies:
 
    ```bash
    npm install
+   ```
 
 3. Set up environment variables in `.env.local.`
- 
+
 4. Start the development server:
 
    ```bash
    npm run dev
+   ```
 
-
-This project was aimed at streamlining and automating common project tasks, with a focus on creating an authentication template for Next.js projects.
-
+This project is a starting point for a Full-Stack Nextjs application
