@@ -2,6 +2,13 @@
 
 This project provides a foundational structure for implementing authentication in web applications using a minimalistic approach.
 
+## Built Using
+- [Next.js](https://nextjs.org/)
+- [Vercel PostgresSQL](https://vercel.com/)
+- [Prisma](https://www.prisma.io/) 
+- [NextAuth.js](https://next-auth.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+  
 ## Getting Started
 
 ### Prerequisites
@@ -31,11 +38,5 @@ This project provides a foundational structure for implementing authentication i
    npm run dev
    ```
    
-## Tech Stack
-- [Next.js](https://nextjs.org/)
-- [Vercel PostgresSQL](https://vercel.com/)
-- [Prisma](https://www.prisma.io/) 
-- [NextAuth.js](https://next-auth.js.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
+
 
