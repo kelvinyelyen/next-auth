@@ -1,11 +1,11 @@
 # NextAuth Authentication 
 
-Foundation for implementing authentication in various web applications.
+This project provides a foundational structure for implementing authentication in web applications using a minimalistic approach.
 
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/)
-- [Vercel](https://vercel.com/) PostgresSQL
+- [Vercel PostgresSQL](https://vercel.com/)
 - [Prisma](https://www.prisma.io/) 
 - [NextAuth.js](https://next-auth.js.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
