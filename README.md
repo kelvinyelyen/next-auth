@@ -17,26 +17,26 @@ This project provides a foundational structure for implementing authentication i
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
-   git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
-   cd next-auth
-   ```
+```bash
+git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
+cd next-auth
+```
 
-2. Install dependencies:
+Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-3. Set up environment variables in `.env.local.`
+Set up environment variables in `.env.local.`
 
-4. Start the development server:
+Start the development server:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
    
 
 
