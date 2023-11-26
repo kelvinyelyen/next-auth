@@ -34,6 +34,6 @@ npm run dev
 - [NextAuth.js](https://next-auth.js.org/): Enables easy integration of authentication strategies.
 - [Tailwind CSS](https://tailwindcss.com/): Facilitates rapid and flexible UI styling in templates.
 
----
+##
 Feel free to reach out to me through email at kelvinyelyen.com or on Twitter if you have any questions or feedback! Hope you find this useful.
 
