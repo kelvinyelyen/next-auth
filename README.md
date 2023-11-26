@@ -35,5 +35,5 @@ npm run dev
 - [Tailwind CSS](https://tailwindcss.com/): Facilitates rapid and flexible UI styling in templates.
 
 ##
-Feel free to reach out to me through email at kelvinyelyen.com or on Twitter if you have any questions or feedback! Hope you find this useful.
+Feel free to reach out to me through email at [hi@kelvinyelyen.com](kelvinyelyen@gmail.com) or on [Twitter/X](https://twitter.com/kelvinyelyen) if you have any questions or feedback! Hope you find this useful.
 
