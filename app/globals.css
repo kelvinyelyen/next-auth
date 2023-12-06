@@ -1,18 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 11%;
+    --foreground: 0 0% 98%;
 
+    --card: 0 0% 14%;
+    --card-foreground: 0 0% 98%;
 
-@font-face {
-    font-family: "Monument Extended Regular";
-    src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot");
-    src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.svg#Monument Extended Regular")format("svg");
+    --button: 0 0% 18%;
+    --button-foreground: 0 0% 98%;
+
+    --popover: 0 0% 14%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 60%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+ 
+    --radius: 0.5rem;
+  }
 }
-
-.logo {
-    font-family: "Monument Extended Regular";
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
