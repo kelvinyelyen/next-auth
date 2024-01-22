@@ -4,28 +4,15 @@ This experimental project provides a foundational structure for implementing aut
 
 ## Getting Started
 
+This project is designed specifically for Next.js version 13+ and utilizes Server Side Components and App Router.
+
 ### Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/kelvinyelyen/nextjs-postgres-auth.git
-cd next-auth
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Set up environment variables in `.env.local.`
-
-Start the development server:
-
-```bash
-npm run dev
-```
+1. Clone the repository: `git clone https://github.com/kelvinyelyen/next-auth.git`
+2. Navigate to the project directory: `cd next-auth`
+3. Install dependencies: `npm install`
+4. Setup environment variables: `.env.example`
+4. Start the development server: `npm run dev`
 
 ## Built Using
 - [Next.js](https://nextjs.org/): Provides server-side rendering for efficient React templates.
