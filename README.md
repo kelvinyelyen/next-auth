@@ -1,6 +1,6 @@
 # NextAuth Authentication 
 
-This experimental project provides a foundational structure for implementing authentication in web applications using a minimalistic approach.
+This experimental project provides a foundational structure for implementing authentication in web applications using a minimalist approach.
 
 ## Getting Started
 
