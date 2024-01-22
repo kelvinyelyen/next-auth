@@ -1,4 +1,4 @@
-# NextAuth Authentication 
+# NextAuth Starter 
 
 This experimental project provides a foundational structure for implementing authentication in web applications using a minimalist approach.
 
