@@ -15,9 +15,9 @@ export default function Home() {
     <main className="container">
       <h2 className="text-2xl tracking-tighter text-center lg:mt-0 mt-3">NextAuth</h2>
       <p className="text-sm text-center p-3 text-secondary">
-        NextAuth with Vercel Postgres & Prisma
+        NextAuth implementation with <br />Vercel Postgres & Prisma
       </p>
-      <div className="grid lg:grid-cols-2 grid-cols-1  gap-4 p-4">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4">
         <Card>
           <CardHeader>
             <CardTitle>NextAuth.js</CardTitle>
@@ -48,12 +48,11 @@ export default function Home() {
           </CardFooter>
         </Card>
 
-
         <Card>
           <CardHeader>
             <CardTitle>Vercel Postgres</CardTitle>
             <CardDescription>
-              Serverless SQL database designed to integrate with Vercel Functions and your frontend framework
+              Serverless SQL database designed to integrate with Vercel Functions
             </CardDescription>
           </CardHeader>
           <CardFooter>
@@ -84,7 +83,7 @@ export default function Home() {
           <CardHeader>
             <CardTitle>One-Click Deploy</CardTitle>
             <CardDescription>
-              Instantly deploy your Next.js site to Vercel.
+              Instantly deploy this Next.js site to Vercel.
             </CardDescription>
           </CardHeader>
           <CardFooter>
