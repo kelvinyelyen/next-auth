@@ -17,7 +17,7 @@ export default function UserDropdown({ session }: { session: Session }) {
     <div className="relative inline-block text-left">
       <Popover
         content={
-          <div className="w-full rounded-md bg-white p-2 sm:w-56">
+          <div className="w-full rounded-md bg-card p-2 sm:w-56">
             {/* <Link
               className="flex items-center justify-start space-x-2 relative w-full rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100"
               href="/dashboard"
@@ -47,7 +47,7 @@ export default function UserDropdown({ session }: { session: Session }) {
       >
         <button
           onClick={() => setOpenPopover(!openPopover)}
-          className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full border border-gray-300 transition-all duration-75 focus:outline-none active:scale-95 sm:h-9 sm:w-9"
+          className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full border border-card-foreground transition-all duration-75 focus:outline-none active:scale-95 sm:h-9 sm:w-9"
         >
           <Image
             alt={email}
